@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(226, 215, 215);
+    padding: 40px 15px;
+}
+
+.links_list {
+    list-style: none;
+    padding: 0;
+}
+
+h4 {
+    font-size: 16px;
+    margin: 40px 0 10px 0;
+    font-weight: bold;
+}
+
+.flex_content {
+    display: flex;
+    padding: 0;
+    min-width: 100px;
+    flex-wrap: wrap;
+}
+.flex_content li {
+    background-color: blue;
+    margin-right: 10px;
+    list-style: none;
+    text-align: center;
+}
+.flex_content a {
+    color: white;
+}
+.flex_content img {
+    height: 48px;
+    width: 48px;
+}
